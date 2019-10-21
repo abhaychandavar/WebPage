@@ -1,0 +1,96 @@
+  body,html{
+    background-image: url('bg7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+.fd{
+
+  top: 0;
+  width: auto;
+  height: 200px;
+  background-image: url('foods.jpg');
+
+  background-position: center center;
+  background-size: cover;
+}
+
+.sd{
+  width: auto;
+  height: 350px;
+}
+
+.menu{
+ margin: 50px;
+ float: left;
+ background-position:center;
+ width: 400px;
+}
+
+.disc h2{
+  font-style: italic;
+  color: white;
+}
+
+.menu img{
+  width:100%;
+  height: auto;
+}
+
+.menu:hover{
+  box-shadow: 10px 10px 5px grey;
+}
+
+.disc{
+  padding: 15px;
+  text-align: center;
+}
+
+.logo{
+  position: sticky;
+  top: 0;
+    object-fit: contain;
+  width: 260px;
+  height: 200px;
+  background-image: url('foodlogo.jpg');
+}
+
+.td{
+  margin: 50px;
+  width: 800px;
+  height: 400px;
+  background-image: url('wood2.jpeg');
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.ice img{
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.td h2{
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+.maintd{
+  width: auto;
+  height: 500px;
+}
+.form{
+  width: 600px;
+  height: 370px;
+  float: right;
+  background-image: url('form.jpg');
+  background-size: cover;
+  border-radius: 15px;
+
+
+}
+.ice:hover{
+  opacity: 0.8;
+}
